@@ -1,7 +1,12 @@
+using BarberApp_Manager;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+IServiceCollection serviceCollection = builder.Services;
+
+serviceCollection.AddPresentationRegister();
 
 var app = builder.Build();
 
