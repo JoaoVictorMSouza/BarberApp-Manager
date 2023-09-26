@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BarberApp_Manager.Aux\BarberApp_Manager.Aux.csproj" />
     <ProjectReference Include="..\BarberApp_Manager.Entity\BarberApp_Manager.Entity.csproj" />
     <ProjectReference Include="..\BarberApp_Manager.Repository\BarberApp_Manager.Repository.csproj" />
   </ItemGroup>
