@@ -13,15 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Repository", "3 - Repos
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Entity", "4 - Entity", "{616D3D27-8CA3-4091-AD42-8CDF04A90A86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberApp_Manager.Domain", "BarberApp_Manager.Domain\BarberApp_Manager.Domain.csproj", "{194426A5-08B2-4855-9340-87A2D81A770D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberApp_Manager.Domain", "BarberApp_Manager.Domain\BarberApp_Manager.Domain.csproj", "{194426A5-08B2-4855-9340-87A2D81A770D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberApp_Manager.Repository", "BarberApp_Manager.Repository\BarberApp_Manager.Repository.csproj", "{CAD81023-F799-4CCF-AF94-4C1B28B150F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberApp_Manager.Repository", "BarberApp_Manager.Repository\BarberApp_Manager.Repository.csproj", "{CAD81023-F799-4CCF-AF94-4C1B28B150F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberApp_Manager.Entity", "BarberApp_Manager.Entity\BarberApp_Manager.Entity.csproj", "{29EC029A-0CEE-4AAC-9FDC-D562BD8E045D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberApp_Manager.Entity", "BarberApp_Manager.Entity\BarberApp_Manager.Entity.csproj", "{29EC029A-0CEE-4AAC-9FDC-D562BD8E045D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "90 - Tests", "90 - Tests", "{18C51534-368D-47D5-B6CF-E7DD7F81A16C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberApp_Manager.NUnitTest", "BarberApp_Manager.NUnitTest\BarberApp_Manager.NUnitTest.csproj", "{A06700EA-2ED9-46F9-9B86-155586A2E225}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberApp_Manager.NUnitTest", "BarberApp_Manager.NUnitTest\BarberApp_Manager.NUnitTest.csproj", "{A06700EA-2ED9-46F9-9B86-155586A2E225}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Aux", "5 - Aux", "{00588429-026F-4CC4-96D6-B1EBAF3F7B89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberApp_Manager.Aux", "BarberApp_Manager.Aux\BarberApp_Manager.Aux.csproj", "{A9714CDE-ECD6-49BA-86F7-CAFE38E159CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{A06700EA-2ED9-46F9-9B86-155586A2E225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A06700EA-2ED9-46F9-9B86-155586A2E225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A06700EA-2ED9-46F9-9B86-155586A2E225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9714CDE-ECD6-49BA-86F7-CAFE38E159CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9714CDE-ECD6-49BA-86F7-CAFE38E159CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9714CDE-ECD6-49BA-86F7-CAFE38E159CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9714CDE-ECD6-49BA-86F7-CAFE38E159CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{CAD81023-F799-4CCF-AF94-4C1B28B150F2} = {7899DDAA-E552-4EDE-8FB4-17AA1C4C8464}
 		{29EC029A-0CEE-4AAC-9FDC-D562BD8E045D} = {616D3D27-8CA3-4091-AD42-8CDF04A90A86}
 		{A06700EA-2ED9-46F9-9B86-155586A2E225} = {18C51534-368D-47D5-B6CF-E7DD7F81A16C}
+		{A9714CDE-ECD6-49BA-86F7-CAFE38E159CD} = {00588429-026F-4CC4-96D6-B1EBAF3F7B89}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2CCAE90E-21EE-48BF-9C31-DE43363AE714}

@@ -1,4 +1,4 @@
-﻿namespace BarberApp_Manager.Domain
+﻿namespace BarberApp_Manager.Aux
 {
     public class Class1
     {
