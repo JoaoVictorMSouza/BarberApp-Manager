@@ -29,7 +29,7 @@ namespace BarberApp_Manager.Repository.SqlConfigurations.Contexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                string connectionString = GetConnectionEnviroment();
+                string? connectionString = GetConnectionEnviroment();
 
                 if (String.IsNullOrWhiteSpace(connectionString))
                 {
