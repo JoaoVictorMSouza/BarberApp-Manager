@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberApp_Manager.NUnitTest
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Aux", "5 - Aux", "{00588429-026F-4CC4-96D6-B1EBAF3F7B89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarberApp_Manager.Aux", "BarberApp_Manager.Aux\BarberApp_Manager.Aux.csproj", "{A9714CDE-ECD6-49BA-86F7-CAFE38E159CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarberApp_Manager.Aux", "BarberApp_Manager.Aux\BarberApp_Manager.Aux.csproj", "{A9714CDE-ECD6-49BA-86F7-CAFE38E159CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
