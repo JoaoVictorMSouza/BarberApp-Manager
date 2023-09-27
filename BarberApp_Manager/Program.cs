@@ -1,10 +1,14 @@
 using BarberApp_Manager;
 
 var builder = WebApplication.CreateBuilder(args);
+IServiceCollection serviceCollection = builder.Services;
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
-IServiceCollection serviceCollection = builder.Services;
+
+//IF YOU WANNA ENABLE CONTROLLERS WITH VIEWS UNCOMMENT THE LINE BELOW 
+//serviceCollection.AddControllersWithViews();
+
+serviceCollection.AddRazorPages();
 
 serviceCollection.AddPresentationRegister();
 
@@ -28,5 +32,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapRazorPages();
 
 app.Run();
